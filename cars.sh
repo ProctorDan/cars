@@ -3,7 +3,7 @@
 # Dan Proctor
 
 echo "Enter one of the following commands:"
-echo "1) Adds a car to the inventory file"
+echo "1) Add a car to the inventory file"
 echo "2) List the cars in the inventory file"
 echo "Q) Quit the program."
 
