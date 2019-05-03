@@ -20,7 +20,7 @@ do
 		read make
 		echo "What is the model?"
 		read model
-		echo "$year":"$make":"$model" >> My_old_cars
+		echo "$year:$make:$model" >> My_old_cars
 	elif [ "$input" == 2 ]
 	then 
 		sort My_old_cars
