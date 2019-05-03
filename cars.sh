@@ -9,10 +9,10 @@ echo "Q) Quit the program."
 
 read input
 
-while [ $input != "Q" ]
+while [ "$input" != "Q" ]
 do
 	
-	if [ $input == 1 ]
+	if [ "$input" == 1 ]
 	then
 		echo "What is the year?"
 		read year
@@ -21,10 +21,10 @@ do
 		echo "What is the model?"
 		read model
 		echo $year:$make:$model >> My_old_cars
-	elif [ $input == 2 ]
+	elif [ "$input" == 2 ]
 	then 
 		sort My_old_cars
-	elif [$input == "Q" ]
+	elif [ "$input" == "Q" ]
 	then 
 		echo "Goodbye"
 		break
